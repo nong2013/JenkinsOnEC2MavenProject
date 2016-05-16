@@ -10,8 +10,8 @@ public class BankAccount {
 
 	  public double debit(double amount) {
 	    if (balance < amount) {
-              
-	      mount = balance;
+              #test line 
+	      amount = balance;
 	    }
 
 	    balance -= amount;
